@@ -29,8 +29,7 @@
 }
 .hero__image{
  display: block;
-  width: 100%;
-  max-width: 288px;   /* ancho real mobile */
+  width: 983px;
   height: auto;
   margin: 32px auto 0;
   object-fit: contain;
