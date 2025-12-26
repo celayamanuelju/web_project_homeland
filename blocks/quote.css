@@ -1,0 +1,65 @@
+
+.quote {
+ display: flex;
+  flex-direction: column;
+  background-color: #2A2C2F;
+  color: #ffffff;
+  row-gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__title {
+    max-width: 800px;
+    font-size: 54px;        
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+.quote_section {
+    text-align: justify;
+    max-width: 800px;
+    height: 100%;
+}
+.quote__text{
+    max-width: 800px;
+    height: auto;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+.quote__author {
+   font-size: 24px;
+   font-weight: 400;
+    display: block;         
+    text-align: right;         
+}
+
+.content__paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    max-width: 760px;
+    text-align: justify;
+
+}
+
+@media screen and (min-width: 545px) {
+  .content {
+    padding: 64px 24px;
+    row-gap: 40px;
+  }
+
+  .content__title {
+    font-size: 2.75rem;
+    max-width: 640px;
+  }
+
+  .quote__text,
+  .quote__author {
+    font-size: 1.25rem;
+  }
+}
