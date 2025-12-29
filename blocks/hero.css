@@ -37,37 +37,45 @@
 
 }
 
-@media screen and (min-width: 545px) {
+@media (max-width: 768px) {
   .hero {
-    padding: 64px 24px 48px;
+    padding: 40px 24px 32px;
   }
 
   .hero__title {
-    font-size: 3.75rem;
-    max-width: 640px;
+    font-size: 2rem;
+    max-width: 560px;
   }
 
   .hero__subtitle {
-    font-size: 1.25rem;
-    max-width: 640px;
+    font-size: 1rem;
+    max-width: 560px;
   }
+
   .hero__image {
-    max-width: 720px;
-    margin-top: 48px;
+    width: 100%;
+    margin-top: 32px;
   }
 }
-@media screen and (min-width: 1025px) {
+
+@media (max-width: 320px) {
   .hero {
-    padding: 96px 0 64px;
+    padding: 32px 16px 24px;
   }
 
   .hero__title {
-    font-size: 6rem;
-    max-width: 720px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 288px;
   }
 
   .hero__subtitle {
-    font-size: 2rem;
-    max-width: 720px;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    max-width: 288px;
+  }
+
+  .hero__image {
+    margin-top: 24px;
   }
 }
